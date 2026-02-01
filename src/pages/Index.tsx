@@ -23,6 +23,11 @@ const DATA_CONFIG = {
   aboutText:
     "I believe in the quiet moments—the stolen glances, the trembling hands, the tears of joy. My approach is unobtrusive yet intentional, capturing the authentic narrative of your love story with a timeless, editorial sensibility that transcends trends.",
   whatsappNumber: "1234567890", // Include country code without + or spaces
+  socialLinks: {
+    instagram: "https://instagram.com/eliselaurent",
+    tiktok: "https://tiktok.com/@eliselaurent",
+    pinterest: "https://pinterest.com/eliselaurent",
+  },
   portfolioImages: [
     gallery1,
     gallery2,
@@ -40,6 +45,7 @@ const Index = () => {
       <Header 
         photographerName={DATA_CONFIG.photographerName} 
         whatsappNumber={DATA_CONFIG.whatsappNumber}
+        socialLinks={DATA_CONFIG.socialLinks}
       />
       
       <Hero 
@@ -57,6 +63,7 @@ const Index = () => {
       <Footer 
         photographerName={DATA_CONFIG.photographerName}
         whatsappNumber={DATA_CONFIG.whatsappNumber}
+        socialLinks={DATA_CONFIG.socialLinks}
       />
     </main>
   );
