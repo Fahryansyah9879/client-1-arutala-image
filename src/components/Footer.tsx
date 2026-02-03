@@ -53,7 +53,7 @@ const Footer = ({
   }, []);
 
   const whatsappMessage = encodeURIComponent(
-    `Halo ${photographerName}, saya lihat portofolio di website dan tertarik dengan jasanya. Bisa tanya-tanya?`
+    `Halo kak!, saya tertarik dengan paket fotografinya.`
   );
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 

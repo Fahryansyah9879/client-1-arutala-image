@@ -19,6 +19,7 @@ import gallery9 from '@/assets/gallery-9.jpg';
 import gallery10 from '@/assets/gallery-10.jpg';
 import gallery11 from '@/assets/gallery-11.jpg';
 import gallery12 from '@/assets/gallery-12.jpg';
+import FloatingWA from '@/components/FloatingWa';
 
 // ============================================
 // DATA CONFIGURATION - Edit your details here
@@ -76,6 +77,10 @@ const Index = () => {
         photographerName={DATA_CONFIG.photographerName}
         whatsappNumber={DATA_CONFIG.whatsappNumber}
         socialLinks={DATA_CONFIG.socialLinks}
+      />
+      <FloatingWA
+        phoneNumber={DATA_CONFIG.whatsappNumber}
+        photographerName={DATA_CONFIG.photographerName}
       />
     </main>
   );
